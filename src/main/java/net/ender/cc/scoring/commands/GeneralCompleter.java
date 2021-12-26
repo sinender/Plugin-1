@@ -2,18 +2,17 @@
 // Decompiled by Procyon v0.5.36
 // 
 
-package net.ender.cc.Scoring.Commands;
+package net.ender.cc.scoring.commands;
 
-import java.util.Iterator;
-import org.bukkit.entity.Player;
 import org.bukkit.Bukkit;
-import java.util.ArrayList;
-import java.util.List;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
-public class TabCompleter implements org.bukkit.command.TabCompleter
-{
+import java.util.ArrayList;
+import java.util.List;
+
+public class GeneralCompleter implements org.bukkit.command.TabCompleter {
     public List<String> onTabComplete(final CommandSender commandSender, final Command command, final String s, final String[] strings) {
         final List<String> completions = new ArrayList<String>();
         if (command.getName().equals("score")) {
