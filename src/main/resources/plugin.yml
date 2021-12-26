@@ -1,12 +1,21 @@
-name: Scoring
-main: net.ender.cc.Scoring.Scoring
-version: 1.0
-api-version: 1.13
-authors: [ Ender ]
-softdepend:
-  - PlaceholderAPI
-  - Spicord
-commands:
-  score:
-  team:
-  teamscore:
+"name": "Scoring"
+"main": "net.ender.cc.scoring.Scoring"
+"version": "1.0"
+"api-version": "1.16"
+
+"authors": [
+  #main development
+    "Ender",
+
+  #cleanup / reformatting
+    "iMoltres"
+]
+
+"softdepend":
+  - "PlaceholderAPI"
+  - "Spicord"
+
+"commands":
+  "score":
+  "team":
+  "teamscore":
